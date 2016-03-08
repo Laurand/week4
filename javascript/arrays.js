@@ -171,7 +171,7 @@ function update_shopping_cart()
   for(var i=0; i <= purchasedImages.length -1; i++ )
     //use a -1 after imageList.length so the condition is always one less (to match the index number)
   {
-    output += '<img src"=' + purchasedImages[i] + '" width="70" height="50" />';
+    output += '<img src="' + purchasedImages[i] + '" width="70" height="50" />';
   }
   cart.innerHTML = output;
   //send the imageList array to the console for debugging
